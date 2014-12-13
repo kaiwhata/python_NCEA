@@ -89,7 +89,7 @@ class GUI:
     def writetocsv(self):
         #this is the callback method for the 'write to csv' button
         import csv
-        file_name = 'schools_database.txt'
+        file_name = 'schools_database.csv'
 
         if self.ready_to_write: #checks data has been previously validated
             ofile = open(file_name, 'w') #open with write('w') or append('a') privelages
